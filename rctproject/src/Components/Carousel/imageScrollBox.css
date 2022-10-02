@@ -1,0 +1,16 @@
+.scrollbox{
+    width:100%;
+    height:180px;
+    
+    display:flex;
+    overflow-y: hidden;
+    margin-top: 2%;
+   
+}  
+/* .scrollbox::-webkit-scrollbar {
+    display: none;
+  } */
+  .scrollbox>.box{
+    width: 200px;
+    border:1px solid black
+  }
